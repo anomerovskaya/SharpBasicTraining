@@ -1,0 +1,13 @@
+C:\My files\Cource\CSharpBasicCource\CSharpBasicCource\bin\Debug\netcoreapp3.1\CSharpBasicCource.exe
+C:\My files\Cource\CSharpBasicCource\CSharpBasicCource\bin\Debug\netcoreapp3.1\CSharpBasicCource.deps.json
+C:\My files\Cource\CSharpBasicCource\CSharpBasicCource\bin\Debug\netcoreapp3.1\CSharpBasicCource.runtimeconfig.json
+C:\My files\Cource\CSharpBasicCource\CSharpBasicCource\bin\Debug\netcoreapp3.1\CSharpBasicCource.runtimeconfig.dev.json
+C:\My files\Cource\CSharpBasicCource\CSharpBasicCource\bin\Debug\netcoreapp3.1\CSharpBasicCource.dll
+C:\My files\Cource\CSharpBasicCource\CSharpBasicCource\bin\Debug\netcoreapp3.1\CSharpBasicCource.pdb
+C:\My files\Cource\CSharpBasicCource\CSharpBasicCource\obj\Debug\netcoreapp3.1\CSharpBasicCource.csproj.AssemblyReference.cache
+C:\My files\Cource\CSharpBasicCource\CSharpBasicCource\obj\Debug\netcoreapp3.1\CSharpBasicCource.AssemblyInfoInputs.cache
+C:\My files\Cource\CSharpBasicCource\CSharpBasicCource\obj\Debug\netcoreapp3.1\CSharpBasicCource.AssemblyInfo.cs
+C:\My files\Cource\CSharpBasicCource\CSharpBasicCource\obj\Debug\netcoreapp3.1\CSharpBasicCource.csproj.CoreCompileInputs.cache
+C:\My files\Cource\CSharpBasicCource\CSharpBasicCource\obj\Debug\netcoreapp3.1\CSharpBasicCource.dll
+C:\My files\Cource\CSharpBasicCource\CSharpBasicCource\obj\Debug\netcoreapp3.1\CSharpBasicCource.pdb
+C:\My files\Cource\CSharpBasicCource\CSharpBasicCource\obj\Debug\netcoreapp3.1\CSharpBasicCource.genruntimeconfig.cache
