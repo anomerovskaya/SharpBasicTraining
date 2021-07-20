@@ -1,6 +1,8 @@
 ﻿using System;
 using CSharpBasicCource._0_FirstSteps;
 using CSharpBasicCource._2_Datatypes.Values_Types;
+using CSharpBasicCource._3_Arrays;
+using CSharpBasicCource._3_Loops;
 
 namespace CSharpBasicCource
 {
@@ -14,7 +16,7 @@ namespace CSharpBasicCource
         //private static string Answer2 = "";
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hey! Please select what datatype you prefer: \n 1 - Bool;\n 2 - Char;\n 3 - Decimal;\n 4 - Double; \n 5 - Float; \n 6 - Int(32); \n 7 - Short(Int16); \n 8 - Long(int64) \n 9 - Exit");
+            Console.WriteLine("Hey! Please select what datatype you prefer: \n 1 - Bool;\n 2 - Char;\n 3 - Decimal;\n 4 - Double; \n 5 - Float; \n 6 - Int(32); \n 7 - Short(Int16); \n 8 - Long(int64) \n 9 - Array \n 10 - Loop \n 11 - Exit");
             bool exit = true;
             while (exit)
             {
@@ -49,16 +51,22 @@ namespace CSharpBasicCource
                             LongClass.LongRun();
                             break;
                         case "9":
+                            SingleArray.SingleArrayRun();
+                            break;
+                        case "10":
+                            ForLoopPractice.LoopRun();
+                            break;
+                        case "11":
                             exit = false;
                             break;
                     }
                 }
-                catch 
+                catch (Exception ex)
                 {
                     Console.WriteLine("You enter wrong datatype!!!!");
                 }
 
-             
+
                 Console.WriteLine("\nSelect another option");
             }
             
