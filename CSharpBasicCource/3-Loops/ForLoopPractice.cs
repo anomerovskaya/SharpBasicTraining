@@ -11,10 +11,10 @@ namespace CSharpBasicCource._3_Loops
             
             int Min = 0;
             int Max = 99;
-            int[] test2 = new int[20];
-            int[] reverseArray = new int[test2.Length];
+            int[] test2 = new int[20]; //declaration Array
+            int[] reverseArray = new int[test2.Length]; // Reversed Array
            
-            Random randNum = new Random();
+            Random randNum = new Random(); // Randow generator of numbers
             Console.WriteLine("What kind of Array you prefer? 1-Real/ 2- Reverse / 3- go away ");
             bool go_away = true;
             while (go_away)
@@ -35,7 +35,7 @@ namespace CSharpBasicCource._3_Loops
                     case "2":
 
 
-                        for (int i = 0; i <= test2.Length - 1; i++)
+                        for (int i = 0; i < test2.Length - 1; i++)
                         {
                             test2[i] = randNum.Next(Min, Max);
                             reverseArray[i] = test2[test2.Length - i - 1];
