@@ -9,7 +9,7 @@ namespace CSharpBasicCource._5_SimpleCalculator
         public static void Calculator()
         {
             Console.WriteLine("Please enter first value: ");
-            var first_value = Convert.ToInt32(Console.ReadLine());
+            double first_value = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Please select operation:\n " +
                 "'+' - Sum(a + b) " +
@@ -19,8 +19,10 @@ namespace CSharpBasicCource._5_SimpleCalculator
             Console.Write("Your option? ");
             string operation = Console.ReadLine();
             Console.WriteLine("Please enter second value: ");
-            var second_value = Convert.ToInt32(Console.ReadLine());
-            int result;
+            double second_value = Convert.ToDouble(Console.ReadLine());
+            double result;
+
+
 
             switch(operation)
             {
@@ -36,8 +38,13 @@ namespace CSharpBasicCource._5_SimpleCalculator
                 case "/":
                     result = first_value / second_value;
                     break;
+                default:
+                    result = 0;
+                    break;
                 
             }
+            Console.WriteLine($"Result of operation is: {result}");
+
 
             //if (operation == "+")
             //{

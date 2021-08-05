@@ -148,7 +148,7 @@ namespace CSharpBasicCource
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("You enter wrong datatype!!!!");
+                    //Console.WriteLine("You enter wrong datatype!!!!");
                 }
 
 
