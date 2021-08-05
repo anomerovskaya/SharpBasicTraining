@@ -3,6 +3,7 @@ using CSharpBasicCource._0_FirstSteps;
 using CSharpBasicCource._2_Datatypes.Values_Types;
 using CSharpBasicCource._3_Arrays;
 using CSharpBasicCource._3_Loops;
+using CSharpBasicCource._5_SimpleCalculator;
 
 namespace CSharpBasicCource
 {
@@ -23,7 +24,8 @@ namespace CSharpBasicCource
                 "\n 2 - Data Types;" +
                 "\n 3 - Arrays;" +
                 "\n 4 - Loop;" +
-                "\n 5 - Exit");
+                "\n 5 - Simple Calculator" +
+                "\n 6 - Exit");
             bool exit = true;
             while (exit)
             {
@@ -134,6 +136,11 @@ namespace CSharpBasicCource
                             ForLoopPractice.LoopRun();
                             break;
                         case "5":
+                            Console.Clear();
+                            Console.WriteLine("Simple Calculator");
+                            ConsoleCalculator.Calculator();
+                            break;
+                        case "6":
                             exit = false;
                             break;
 
@@ -141,7 +148,7 @@ namespace CSharpBasicCource
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("You enter wrong datatype!!!!");
+                    //Console.WriteLine("You enter wrong datatype!!!!");
                 }
 
 
