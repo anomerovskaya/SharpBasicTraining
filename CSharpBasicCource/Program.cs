@@ -128,7 +128,8 @@ namespace CSharpBasicCource
                         case "3":
                             Console.Clear();
                             Console.WriteLine("Arrays");
-                            SingleArray.SingleArrayRun();
+                            //SingleArray.SingleArrayRun();
+                            LuckyNumber.ArrayHomeTaskPractice();
                             break;
                         case "4":
                             Console.Clear();
