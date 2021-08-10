@@ -3,6 +3,7 @@ using CSharpBasicCource._0_FirstSteps;
 using CSharpBasicCource._2_Datatypes.Values_Types;
 using CSharpBasicCource._3_Arrays;
 using CSharpBasicCource._3_Loops;
+using CSharpBasicCource._4_Loops;
 using CSharpBasicCource._5_SimpleCalculator;
 
 namespace CSharpBasicCource
@@ -128,13 +129,65 @@ namespace CSharpBasicCource
                         case "3":
                             Console.Clear();
                             Console.WriteLine("Arrays");
-                            //SingleArray.SingleArrayRun();
-                            LuckyNumber.ArrayHomeTaskPractice();
+                            Console.WriteLine("What exercise of Arrays you would like: " +
+                                "\n 1 - View SingleArray " +
+                                 "\n 2 - Verify Lucky Number " +
+                                 "\n 3 - Exit");
+                            var answer4 = Console.ReadLine();
+                            bool selected_value3 = int.TryParse(answer4, out var ArrayExercise);
+                            if (!selected_value3)
+                            {
+                                Console.WriteLine(NotIntMessage);
+                            }
+                            else 
+                            {
+                                switch(ArrayExercise)
+                                {
+                                    case 1:
+                                        SingleArray.SingleArrayRun();
+                                        break;
+                                    case 2:
+                                        LuckyNumber.ArrayHomeTaskPractice();
+                                        break;
+                                    default:
+                                        Console.WriteLine(NotIntMessage);
+                                        break;
+
+                                }
+                            }
+                            
                             break;
                         case "4":
                             Console.Clear();
                             Console.WriteLine("Loops");
-                            ForLoopPractice.LoopRun();
+                            Console.WriteLine("What exercise of Loop you would like: " +
+                                "\n 1 - Creation random array and view revers version of array" +
+                                 "\n 2 - View Movies from Australia " +
+                                 "\n 3 - Exit");
+                            var answer5 = Console.ReadLine();
+                            var selected_value4 = int.TryParse(answer5, out var LoopExercise);
+                            if (!selected_value4)
+                            {
+                                Console.WriteLine(NotIntMessage);
+                            }
+                            else
+                            {
+                                switch (LoopExercise)
+                                {
+                                    case 1:
+                                        ForLoopPractice.LoopRun();
+                                        break;
+                                    case 2:
+                                        MovieFromAustralia.RunGetMoviesFromAustralia();
+                                        break;
+                                    default:
+                                        Console.WriteLine(NotIntMessage);
+                                        break;
+
+                                }
+                            }
+                            
+                            
                             break;
                         case "5":
                             Console.Clear();
